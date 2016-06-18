@@ -1,0 +1,17 @@
+{
+    "name": "ifphp/ifphp",
+    "authors": [
+        {
+            "name": "Thiago Miranda",
+            "email": "mirandathiago@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {"phpunit/phpunit" : "*"},
+    "config":{"bin-dir":"./bin"},
+    "autoload":{
+        "psr-4": {
+            "IFphp\\" : "IFphp/"
+        }
+    }
+}
